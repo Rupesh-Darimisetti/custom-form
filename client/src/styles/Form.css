@@ -1,0 +1,39 @@
+body {
+    background-color: #ede7f6;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+div {
+    display: block;
+    padding-bottom: 24px;
+    padding-top: 22px;
+}
+.border{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    /* height: 10px; */
+    left: -1px;
+    /* position: absolute; */
+    top: -1px;
+    width: calc(100% + 2px);
+}
+
+.description{
+    height: 20px;
+}
+
+.RVEQke .border {
+    background-color: rgb(103, 58, 183);
+    color: rgba(255, 255, 255, 1);
+}
+
+input {
+    box-sizing: border-box;
+    box-flex: 1;
+    flex-grow: 1;
+    outline: none;
+    padding: 12px 0;
+    width: 100%;
+    padding-bottom: 24px;
+}
